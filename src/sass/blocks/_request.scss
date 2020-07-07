@@ -1,0 +1,66 @@
+.request { 
+    margin-top: 200px;
+    margin-left: 140px;
+    padding-bottom: 200px;
+    &__wrapper { 
+        display: flex;
+        justify-content: space-between;
+    }
+    &__date { 
+        margin-top: 20px;
+    }
+    &__subdate {
+        margin-left: 135px;
+    }
+    &__price { 
+        margin-top: 10px;
+        margin-left: 120px;
+    }
+     &__subprice { 
+         margin-top: -28px;
+        margin-left: 120px;
+     }
+    &__form { 
+        display: flex;
+         flex-direction: column;
+        justify-content: space-between;
+    }
+     &__form-title { 
+         font-size: 24px;
+         line-height: 28px;
+         margin-top: 100px;
+         color: #000000;
+         margin-bottom: 50px;
+     }
+     &__form-name {
+         width: 383px;
+         height: 50px;
+         margin-bottom: 20px;
+
+         background: #FFFFFF;
+         border: 1px solid #E2AB3F;
+         font-weight: 300;
+         font-size: 18px;
+         color: #000000;
+     }
+     &__form-phone {
+         width: 383px;
+         height: 50px;
+         margin-bottom: 32px;
+
+         background: #FFFFFF;
+         border: 1px solid #E2AB3F;
+         font-weight: 300;
+         font-size: 18px;
+         color: #000000
+     }
+     &__form-btn {
+         width: 280px;
+         height: 50px;
+         margin-left: 52px;
+         background: #FFFFFF;
+         border: 1px solid #E2AB3F;
+       
+      }
+    
+}

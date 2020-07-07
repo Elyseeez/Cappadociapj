@@ -1,0 +1,64 @@
+.header { 
+    background: url(../../img/bg/main.jpg) center (bottom / cover) no-repeat;
+    height: 100vh;
+    position: relative;
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        
+        padding-top: 72px;
+    }
+    &__list {
+            display: inline-flex;
+             list-style-type: none;
+             
+                 
+    }
+    &__menu-item + &__menu-item { 
+        margin-left: 52px;
+        
+    }
+    &__menu-link { 
+        font-weight: 500;
+        font-size: 20px;
+        font-family: 'RobotoCondensed-Regular';
+        
+        color: #000000;
+        &:hover {
+            color: #000000;
+        }
+        
+    }
+    &__tel { 
+        font-weight: 500;
+        font-size: 20px;
+        font-family: 'RobotoCondensed-Regular';
+
+        color: #000000;
+        &:hover {
+            color: #000000;
+        }
+    }
+    &__title { 
+        text-align: center;
+        font-family: Balqis;
+        font-weight: 300;
+        font-size: 235px;
+        line-height: 310px;
+        margin-top: 117px;
+        
+
+        color: #000000;
+    }
+    &__subtitle { 
+        display: block;
+        
+        text-align: right;
+        line-height: 30px;
+        font-size: 53px;
+        font-family: 'RobotoCondensed-LightItalic';
+        margin-top: -56px;
+        margin-right: 107px;
+    }
+   
+}

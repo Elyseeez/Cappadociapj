@@ -1,0 +1,74 @@
+.footer { 
+    background: url(../../img/bg/footer.jpg) center (center / cover) no-repeat;
+    height: 100vh;
+    padding-top: 100px;
+    &__wrapper { 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    &__contacts {
+        
+        width: 356px;
+        height: 527px;
+        background: url(../../img/ballon-footer.png);
+
+    }
+    &__title { 
+        font-family: Balqis;
+        margin-top: 50px;
+        font-weight: 300;
+        font-size: 90px;
+        margin-bottom: 21px;
+        margin-left: 39px;
+        color: #E2AB3F;
+    }
+    &__tel  { 
+        display: inline-block;
+        position: relative;
+        padding-left: 103px;
+        margin-bottom: 20px;
+        font-weight: 500;
+        font-size: 18px;;
+
+        color: #000000;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            left: 62px;
+            top: -2px;
+            background-image: url(../../img/footer-phone.svg);
+        }
+    }
+    &__mail { 
+        display: inline-block;
+        position: relative;
+        padding-left: 87px;
+        margin-bottom: 40px;
+        font-weight: 500;
+        font-size: 18px;;
+
+        color: #000000;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            left: 52px;
+            background-image: url(../../img/footer-mail.svg);
+        }
+    }
+    &__social { 
+        padding-left: 127px;
+    }
+    &__text { 
+        font-family: Balqis;
+        font-weight: 300;
+        font-size: 86px;
+        margin-bottom: 20px;
+        color: #000000;
+    }
+}

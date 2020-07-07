@@ -1,0 +1,31 @@
+.hotel {
+    margin-top: 200px;
+    &__subtitle { 
+        margin-left: 122px;
+        margin-bottom: 130px;
+    }
+    &__wrapper { 
+        display: flex;
+        
+        
+        
+        
+    }
+    &__img { 
+        margin-right: 100px;
+    }
+    &__text { 
+        
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+   &__gallery { 
+       margin-top: 40px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       a { 
+           margin-top: 50px;
+       }
+   }
+}
